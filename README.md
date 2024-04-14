@@ -1,6 +1,6 @@
 You might be wondering, "How do I redirect my domain using Vercel if my domain is on Namecheap? Godaddy, Gandi, IONOS, Google, and ALSO account for https:// and www? 
 
-DNS Records alone cannot allow a redirect utilizing https - so the best way I am aware of is is to point to a free server that can do a permanent 301 redirect.
+DNS Records alone cannot allow a redirect utilizing https - so the best way I am aware of is to point to a free server that can do a permanent 301 redirect.
 
 I recently discovered that Namecheap's redirect, the "redirect domain" section doesn't account for www. or https. I thought namecheap had a server to perform this, but the easy redirect is simply a DNS record which does not have this capability.
 ![image](https://github.com/proven-design/vercelredirect/assets/49770117/e8374e6d-05f0-47ec-a060-9fa3e7c5a7b9)

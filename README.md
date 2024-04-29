@@ -5,7 +5,7 @@ DNS Records alone cannot allow a redirect utilizing https - so the best way I am
 I recently discovered that Namecheap's redirect, the "redirect domain" section doesn't account for www. or https. I thought namecheap had a server to perform this, but the easy redirect is simply a DNS record which does not have this capability.
 ![image](https://github.com/proven-design/vercelredirect/assets/49770117/e8374e6d-05f0-47ec-a060-9fa3e7c5a7b9)
 
-## This repo is the minimum required in order to implement a redirect, all you have to do is point your domain DNS to your Vercel domain.
+## This repo is the minimum required in order to implement a redirect, all you have to do is point your domain's DNS to Vercel.
 
 ## Step 1
 - Copy this repository or at the very least the vercel.json
